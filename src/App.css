@@ -20,3 +20,45 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* Taken from https://www.w3schools.com/css/css_tooltip.asp */
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  opacity: 0;
+  transition: 'opacity 0.5s';
+  width: 250px;
+  background-color: rgb(75, 75, 75);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  top: 100%;
+  left: 50%;
+  margin-left: -180px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: 30px;
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent transparent rgb(75, 75, 75) transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+}
