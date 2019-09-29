@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/medhacks/static/css/main.815e94b6.chunk.css",
+    "main.js": "/medhacks/static/js/main.b7d13fe9.chunk.js",
+    "main.js.map": "/medhacks/static/js/main.b7d13fe9.chunk.js.map",
+    "runtime-main.js": "/medhacks/static/js/runtime-main.41701304.js",
+    "runtime-main.js.map": "/medhacks/static/js/runtime-main.41701304.js.map",
+    "static/js/2.cf8996ee.chunk.js": "/medhacks/static/js/2.cf8996ee.chunk.js",
+    "static/js/2.cf8996ee.chunk.js.map": "/medhacks/static/js/2.cf8996ee.chunk.js.map",
+    "index.html": "/medhacks/index.html",
+    "precache-manifest.0b8d0cbebd77bece3358e9a478871857.js": "/medhacks/precache-manifest.0b8d0cbebd77bece3358e9a478871857.js",
+    "service-worker.js": "/medhacks/service-worker.js",
+    "static/css/main.815e94b6.chunk.css.map": "/medhacks/static/css/main.815e94b6.chunk.css.map"
+  }
+}
